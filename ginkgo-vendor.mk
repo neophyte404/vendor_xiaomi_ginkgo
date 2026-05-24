@@ -778,18 +778,18 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0-service-Impl \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
-    capi_v2_aptX_CLHDAD_Encoder \
-    libVC1Dec \
-    libVC1DecDsp_skel \
-    libapps_mem_heap \
-    libdspCV_skel \
-    libfastcvadsp \
-    libfastcvdsp_skel \
-    libhexagon_nn_skel \
-    libscveObjectSegmentation_skel \
-    libscveT2T_skel \
-    libsns_device_mode_skel \
-    libsns_low_lat_stream_skel \
+    vendor_lib_rfsa_adsp_capi_v2_aptX_CLHDAD_Encoder_so \
+    vendor_lib_rfsa_adsp_libVC1Dec_so \
+    vendor_lib_rfsa_adsp_libVC1DecDsp_skel_so \
+    vendor_lib_rfsa_adsp_libapps_mem_heap_so \
+    vendor_lib_rfsa_adsp_libdspCV_skel_so \
+    vendor_lib_rfsa_adsp_libfastcvadsp_so \
+    vendor_lib_rfsa_adsp_libfastcvdsp_skel_so \
+    vendor_lib_rfsa_adsp_libhexagon_nn_skel_so \
+    vendor_lib_rfsa_adsp_libscveObjectSegmentation_skel_so \
+    vendor_lib_rfsa_adsp_libscveT2T_skel_so \
+    vendor_lib_rfsa_adsp_libsns_device_mode_skel_so \
+    vendor_lib_rfsa_adsp_libsns_low_lat_stream_skel_so \
     libmmosal \
     libmmparser_lite \
     libmmrtpdecoder \
@@ -2035,8 +2035,8 @@ PRODUCT_PACKAGES += \
     libvendor.goodix.hardware.interfaces.biometrics.fingerprint@2.1 \
     sensors.ssc \
     vendor.qti.hardware.fingerprint@1.0 \
-    misound_karaoke_res \
-    misound_karaokemix_res \
-    misound_res \
+    vendor_lib_rfsa_adsp_misound_karaoke_res_bin \
+    vendor_lib_rfsa_adsp_misound_karaokemix_res_bin \
+    vendor_lib_rfsa_adsp_misound_res_bin \
     cnss-daemon \
     sensors.qti
